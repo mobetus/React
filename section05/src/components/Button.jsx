@@ -4,15 +4,21 @@ const Button = ({ text, color, children }) => {
     console.log(e);
     console.log(text);
   };
-
+  //onClickButton은 이벤트 핸들러 함수
   return (
-    <button onClick={onClickButton}
-    // onMouseEnter={onClickButton}
-    style={{color: color}}
+    <button
+      onClick={onClickButton}
+      // onMouseEnter={onClickButton}
+      style={{ color: color }}
     >
-      {text} - {color.toUpperCase()}
+      {text}-{color.toUpperCase()}
       {children}
     </button>
   );
 };
 
+Button.defaultProps = {
+  color: 'black',
+};
+
+export default Button;
