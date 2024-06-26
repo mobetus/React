@@ -1,4 +1,4 @@
-import useInput from "./../hooks/useInput"
+import useInput from './../hooks/useInput';
 
 //3가지 hook 관련된 팁
 // 1. 함수 컴포넌트, 커스텀 혹 내부에서만 호출 가능
@@ -8,13 +8,13 @@ import useInput from "./../hooks/useInput"
 const HookExam = () => {
   const [input, onChange] = useInput();
   const [input2, onChange2] = useInput();
-  
+
   return (
     <div>
-      <input value={"input"} onChange={onchange} />
-      <input value={"input2"} onChange={onchange2} />
+      <input value={input} onChange={onChange} />
+      <input value={input2} onChange={onChange2} />
     </div>
   );
 };
 
-export defalut HookExam;
+export default HookExam;

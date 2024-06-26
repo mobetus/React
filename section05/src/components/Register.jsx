@@ -14,6 +14,11 @@ const Register = () => {
     country: '',
     bio: '',
   });
+  const onSubmit = () => {
+    if (input.name === '') {
+      //이름을 입력하는 DOM 요소 포커스
+    }
+  };
 
   const onChange = (e) => {
     console.log(e.target.name, e.target.value);
@@ -56,14 +61,11 @@ const Register = () => {
           <textarea name="bio" value={input.bio} onChange={onChange}></textarea>
         </div>
       </div>
+      <button onClick={onSubmit}>제출</button>
     </div>
   );
 };
-// const [input, setInput] = useState({
-//   name: '',
-//   birth: '',
-//   country: '',
-//   bio: '',
+
 // const countRef = useRef(0);
 // const inputRef = useRef();
 
