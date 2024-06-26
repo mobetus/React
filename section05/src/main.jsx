@@ -9,4 +9,4 @@ import './index.css';
 // };
 // 관례상 App이라는 이름으로 루트 컴포넌트로 설정하기 때문에
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App2 />);
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
