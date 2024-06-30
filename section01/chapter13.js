@@ -5,7 +5,7 @@ function main(value) {
 }
 
 main(() => {
-  //console.log('i am sub');
+  console.log('i am sub');
 });
 
 // 2. 콜백함수의 활용

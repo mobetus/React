@@ -25,6 +25,7 @@ funcA(...arr1);
 
 // 2. Rest 매개변수
 // -> Rest는 나머지 , 나머지 매개변수
+// rest말고 다른 이름 ds 등도 가능함
 
 function funcB(one, two, ...rest) {
   console.log(rest);

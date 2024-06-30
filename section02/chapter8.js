@@ -19,7 +19,7 @@ console.log(doubledArr);
 // 배열에 특정 요소가 있는지 확인하는 그런 메서드
 let arr2 = [1, 2, 3];
 let isInclude = arr2.includes(10);
-
+// 요소가 없으면  없다는 의미로 -1이 뜬다
 console.log(isInclude);
 
 //3. indexOf

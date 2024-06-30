@@ -5,9 +5,9 @@ const animal = {
   color: 'black',
 };
 
-animal.age = 2; // 추가
-animal.name = '까망이'; //수정
-delete animal.color; //삭제
+animal.age = 2; // 추가하기
+animal.name = '까망이'; //수정하기
+delete animal.color; //삭제하기
 
 console.log(animal);
 
@@ -16,7 +16,7 @@ console.log(animal);
 
 const person = {
   name: '김헌수',
-  // 메서드 선언
+  // 아래를 메서드 선언이라고 함`
   sayHi() {
     console.log('안녕');
   },

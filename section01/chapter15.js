@@ -3,14 +3,14 @@ let obj1 = new Object(); //객체 생성자
 let obj2 = {}; //객체 리터럴 (대부분 사용)
 
 // 2. 객체 프로퍼티 (객체 속성)
-let person = {
+let person = { //ex) -> key:value
   name: '김현수',
   age: 27,
   hobby: '운동',
   job: 'FE Developer',
   extra: {},
   10: 20,
-  'like cat': true,
+  'like cat': true, //띄어쓰기를 사용할 때는 따옴표를 써서 key를 표현한다
 };
 
 // 3. 객체 프로퍼티를 다루는 방법
@@ -18,7 +18,7 @@ let person = {
 let name = person.name;
 console.log(name);
 
-let age = person['age'];
+let age = person['age']; //따옴표를 안 쓰면 age를 변수로 인식함
 console.log(age);
 
 let property = 'hobby';

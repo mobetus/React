@@ -39,7 +39,7 @@ let sliced3 = arr5.slice(-3);
 console.log(sliced);
 
 // 6. concat
-// 두개으 ㅣ서로 다른 배열을 이어 붙여서 새로운 배열을 반환
+// 두개의 서로 다른 배열을 이어 붙여서 새로운 배열을 반환
 
 let arr6 = [1, 2];
 let arr7 = [3, 4];
