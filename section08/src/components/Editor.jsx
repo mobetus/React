@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import './Editor.css';
+import './Editor.css'; // 같은 폴더에 있는 Editor.css에서 import
 
 const Editor = ({ onCreate }) => {
   const [content, setContent] = useState('');
@@ -24,6 +24,7 @@ const Editor = ({ onCreate }) => {
 
   return (
     <div className="Editor">
+      {/* 클래스를 Editor로 한 부분은 뒤에 input, button등을 바로 쓰기 가능 */}
       <input
         ref={contentRef}
         value={content}
