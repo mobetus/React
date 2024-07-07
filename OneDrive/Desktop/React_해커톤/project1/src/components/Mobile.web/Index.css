@@ -1,0 +1,51 @@
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.head{
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px 10px;
+}
+.top_label{
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.blank{
+    background-color: black;
+    color: white;
+    padding-bottom: 80px;
+}
+.first_label{
+  font-size: 40px;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+.second_label{
+  font-size: 15px;
+  padding-top: 20px;
+  padding-left: 100px;
+}
+.list{
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.product{
+  border: 1px solid lightgray;
+  height: 200px;
+  border-radius: 7%;
+  background-color: white;
+}
+.footer{
+  margin-top: 5px;
+  border: 1px solid black;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+}

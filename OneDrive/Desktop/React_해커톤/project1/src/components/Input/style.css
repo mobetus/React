@@ -1,0 +1,54 @@
+.input_login{
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+.input_label_box{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.input_label{
+    font-weight: bold;
+}
+.id_box{
+    border: 2px solid rgb(114, 114, 205);
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+.id_box_content{
+   border: none; 
+   /* 처음에 보이는 경계선 */
+   outline: none;
+   /* 클릭해서 입력했을 때 나오는 경계선 */
+}
+.pw_box{
+    border: 2px solid rgb(114, 114, 205);
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+.pw_box_content{
+    border: none;
+    outline: none;
+}
+.pw_box_error{
+    color: red;
+    font-size: 11px;
+    font-weight: 500;
+    height: 20px;
+}
+.login_box{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 5%;
+}
+.sign_up{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
