@@ -14,12 +14,12 @@ const Editor = ({ onCreate }) => {
     }
   };
   const onSubmit = () => {
-    if (content === '') {
-      contentRef.current.focus();
+    if (content === "") { //""은 빈 문자열이라는 뜻
+      contentRef.current.focus(); // 빈 문자열 입력시 current 값에 focus 됨
       return;
     }
     onCreate(content);
-    setContent('');
+    setContent("");
   };
 
   return (

@@ -1,6 +1,7 @@
 .Editor {
   display: flex;
-  gap: 10px;
+  gap: 10px; 
+  /* 행의 상태에서 gap이 적용됨 */
 }
 
 .Editor input {
@@ -11,7 +12,8 @@
 }
 
 .Editor button {
-  cursor: pointer;
+  cursor: pointer; 
+  /* 마우스를 버튼에 올리면 커서가 포인터 모양이 됨 */
   width: 80px;
   border: none;
   background-color: rgb(37, 147, 255);
